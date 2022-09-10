@@ -185,7 +185,7 @@ boolean readConfiguration() {
 }
 
 
-String dataCreation(int t, int h) {
+String dataCreation(float t, float h) {
   String dataString = "";
   do {
     dateTime = NTPch.getNTPtime(5, 1);  
@@ -228,7 +228,7 @@ String dataCreation(int t, int h) {
 }
 
 
-String serverDataCreation(int t, int h) {
+String serverDataCreation(float t, float h) {
   String dataString = "";
   do {
     dateTime = NTPch.getNTPtime(5, 1);  
@@ -278,7 +278,7 @@ void sdWriting(String dataString) {
   }
 }
 
-void sendingToServer(int h, int t, String serverData) {
+void sendingToServer(float h, float t, String serverData) {
   if (WiFi.status() == WL_CONNECTED) { //Check WiFi connection status
 
 //    Serial.println("*Check serverData in function: ");
