@@ -32,7 +32,7 @@ int minutes;
 int hours;
 
 
-#define CONFIG_FILE "config.cfg"
+#define CONFIG_FILE "config.cfg" //this is my config file
 SDConfigFile cfg;
 
 char *wifiName;
