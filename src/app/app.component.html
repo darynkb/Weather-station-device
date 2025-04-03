@@ -1,0 +1,154 @@
+<!-- <div *ngFor = "let temphum of temphums">
+    <div>{{temphum.humidity}}</div>
+    <div>{{temphum.temperature}}</div>
+    <div>{{temphum.index}}</div>
+</div> -->
+<!-- <div *ngFor = "let lis of list; index as i">
+    <div>{{lis}}</div>
+    <div>{{i}}</div>
+</div> -->
+<!--The content below is only a placeholder and can be replaced.-->
+<!-- <div ng-style="{'width': windowWidth / 2}"> -->
+<head>
+    <meta charset="utf-8">
+    <title>PetLover - Pet Care Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Flaticon Font -->
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+
+<body>
+<div class="container-fluid">
+    <div class="row bg-secondary py-2 px-lg-5">
+        <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
+            <div class="d-inline-flex align-items-center">
+                <a class="text-white pr-3" href="">FAQs</a>
+                <span class="text-white">|</span>
+                <a class="text-white px-3" href="">Help</a>
+                <span class="text-white">|</span>
+                <a class="text-white pl-3" href="">Support</a>
+            </div>
+        </div>
+        <div class="col-lg-6 text-center text-lg-right">
+            <div class="d-inline-flex align-items-center">
+                <a class="text-white px-3" href="">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a class="text-white px-3" href="">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a class="text-white px-3" href="">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a class="text-white px-3" href="">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a class="text-white pl-3" href="">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="row bg-light py-2 px-lg-5">
+        <div class="col-lg-4">
+            <a href="" class="navbar-brand d-none d-lg-block">
+                <h1 class="m-0 display-6 text-capitalize"><span class="text-secondary">M</span><span class="text-secondary">-Teka</span></h1>
+            </a>
+        </div>
+        <div class="col-lg-8 text-center text-lg-right">
+            <div class="d-inline-flex align-items-center">
+                <div class="d-inline-flex flex-column text-center pr-3 border-right">
+                    <h6>Opening Hours</h6>
+                    <p class="m-0">8.00AM - 9.00PM</p>
+                </div>
+                <div class="d-inline-flex flex-column text-center px-3 border-right">
+                    <h6>Email Us</h6>
+                    <p class="m-0">info@example.com</p>
+                </div>
+                <div class="d-inline-flex flex-column text-center pl-3">
+                    <h6>Call Us</h6>
+                    <p class="m-0">+012 345 6789</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<button (click)="div1Function()">button</button><br>
+<div *ngIf="div1">
+<!-- <div class="container" ng-app=""> -->
+    <div id="chart" class="myclass">
+        <apx-chart 
+        [series]="chartOptions.series"
+        [chart]="chartOptions.chart"
+        [xaxis]="chartOptions.xaxis"
+        [dataLabels]="chartOptions.dataLabels"
+        [grid]="chartOptions.grid"
+        [stroke]="chartOptions.stroke"
+        [title]="chartOptions.title"
+        ></apx-chart> 
+    </div>
+</div>
+
+<!-- <button (click)="div2Function()">button</button><br>
+<div *ngIf="div2">
+        <div id="chart" class="myclass">
+            <apx-chart 
+            [series]="chartOptions2.series"
+            [chart]="chartOptions2.chart"
+            [xaxis]="chartOptions2.xaxis"
+            [dataLabels]="chartOptions2.dataLabels"
+            [grid]="chartOptions2.grid"
+            [stroke]="chartOptions2.stroke"
+            [title]="chartOptions2.title"
+            ></apx-chart> 
+        </div>
+        <br>
+    
+        <span class="glyphicon" ng-class="isHidden ? 'glyphicon-chevron-down' : 'glyphicon-chevron-up'" ng-click="isHidden = !isHidden;"></span>
+    
+    </div>
+</body> -->
+<!-- </div> -->
+<!-- <div class="container sample">
+    <div class="options vertical">
+        <span id="legendTitle">Renewable Electricity Generated</span>
+        <igx-legend #legend orientation="horizontal"></igx-legend>
+    </div>
+    <div class="container">
+        <igx-category-chart height="100%" width="100%"
+            [dataSource]="data"
+            [legend]="legend"
+            chartType="line"
+            yAxisTitle="TWh"
+            yAxisTitleLeftMargin="5">
+        </igx-category-chart>
+    </div>
+</div> -->
